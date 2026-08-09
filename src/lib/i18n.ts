@@ -62,6 +62,11 @@ export const dict = {
     en: "Biography, official photos, and press assets in a single file, ready for media and promoters.",
   },
   "home.pressCta": { es: "Descargar EPK (PDF)", en: "Download EPK (PDF)" },
+  "home.survey": { es: "Encuesta", en: "Survey" },
+  "home.surveyDesc": {
+    es: "Cinco minutos, un montón de ayuda: cuéntanos cómo nos escuchas y qué te gustaría ver de nosotros.",
+    en: "Five minutes, a big help: tell us how you listen to us and what you'd like to see from us.",
+  },
   "lightbox.close": { es: "Cerrar", en: "Close" },
   "lightbox.prev": { es: "Foto anterior", en: "Previous photo" },
   "lightbox.next": { es: "Foto siguiente", en: "Next photo" },

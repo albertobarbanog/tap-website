@@ -16,6 +16,7 @@ import {
 import AlbumCover from "@/components/AlbumCover";
 import NextShow from "@/components/NextShow";
 import FotoCarousel from "@/components/FotoCarousel";
+import SurveyForm from "@/components/SurveyForm";
 import { YoutubeIcon } from "@/components/BrandIcons";
 import { useLanguage } from "@/context/LanguageContext";
 import type { DictKey } from "@/lib/i18n";
@@ -294,6 +295,23 @@ export default function HomeContent({
       </section>
 
       <section className="border-t border-line bg-bg-elevated">
+        <div className="mx-auto max-w-3xl px-6 py-20 sm:py-28">
+          <div className="mb-12 flex items-center gap-4">
+            <span className="text-xs tracking-wider-label text-text-faint">
+              {t("home.survey")}
+            </span>
+            <div className="h-px flex-1 bg-line" />
+          </div>
+
+          <p className="mb-10 max-w-lg text-sm text-text-muted">
+            {t("home.surveyDesc")}
+          </p>
+
+          <SurveyForm />
+        </div>
+      </section>
+
+      <section className="border-t border-line bg-bg">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <div className="mb-12 flex items-center gap-4">
             <span className="text-xs tracking-wider-label text-text-faint">

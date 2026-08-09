@@ -38,6 +38,8 @@ yarn-error.log*
 
 # claude code session state
 .claude/
+.agents/
+skills-lock.json
 
 # typescript
 *.tsbuildinfo
