@@ -53,7 +53,7 @@ export default function Header() {
             <Image
               src="/images/logo-mark.png"
               alt=""
-              width={30}
+              width={33}
               height={37}
               className="h-7 w-auto shrink-0 opacity-90 sm:h-8"
               priority
