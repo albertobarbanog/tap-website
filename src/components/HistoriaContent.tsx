@@ -9,7 +9,7 @@ export default function HistoriaContent() {
   return (
     <article className="mx-auto max-w-3xl px-6 py-20 sm:py-28">
       <header className="text-center">
-        <span className="text-xs tracking-wider-label text-text-muted">
+        <span className="text-sm tracking-wider-label text-text-muted">
           {t("historia.eyebrow")}
         </span>
         <h1 className="font-display mt-4 text-4xl tracking-wide-label text-text sm:text-5xl">
@@ -48,7 +48,8 @@ function BiographyES() {
           <p>
             La historia de la banda se remonta a 2011, cuando la idea
             comenzó a gestarse en el segundo piso de la casa de Alberto
-            junto a José y Felipe Cuevas (Destinos / Estudio Arrebol).
+            junto a José Ramírez y Felipe Cuevas (Destinos / Estudio
+            Arrebol).
             Impulsados por el impacto que dejó en ellos haber escuchado{" "}
             <em className="text-text">Discoveries</em> de Northlane, surgió
             la intención de explorar el peso técnico, la afinación baja y
@@ -89,6 +90,14 @@ function BiographyES() {
           <p>
             En 2018, la banda dio el paso definitivo hacia su primer álbum
             de larga duración con <em className="text-text">Transmute</em>.
+            En esta etapa clave, José Ramírez se desempeñó como el
+            vocalista de la era Transmute y el creador de las letras de esa
+            etapa. Paralelamente, se destaca la llegada de Andrés Olivares
+            en la batería y Jaime García en el bajo, aportando una
+            solidez rítmica, un groove técnico y una potencia fundamental
+            para definir la nueva arquitectura sonora del grupo.
+          </p>
+          <p>
             Concebido como una obra conceptual, el disco trasladó a lo
             visual y lo sonoro una estética azul, prístina y cristalina
             —superficies que parecen hielo o vidrio a punto de
@@ -118,23 +127,28 @@ function BiographyES() {
             internacional a Córdoba, Argentina, la banda enfrentó la salida
             repentina de su vocalista horas antes del show. Lejos de
             cancelar, se presentaron en formato 100% instrumental,
-            convirtiendo la dificultad en un hito de solidez técnica.
+            convirtiendo la dificultad en un hito de solidez técnica. Tras
+            esta etapa de transición, el guitarrista Alberto Barbano asumió
+            el rol de frontman para liderar la proyección del grupo.
           </p>
           <p>
             En 2020, en pleno confinamiento por la pandemia, lanzaron el EP{" "}
             <em className="text-text">AIM</em>, marcando una clara
-            evolución sonora hacia matices más ambientales y expansivos.
-            Con la incorporación de João Riveros en la voz y Andrés
-            Olivares en la batería, <em className="text-text">AIM</em>{" "}
-            introdujo baterías acústicas grabadas y una lírica profundamente
-            conceptual. Las letras de la banda comenzaron a nutrirse tanto
-            de la filosofía como de la cultura pop, utilizando arquetipos y
-            personajes de ficción como espejos de emociones humanas —como
-            Hohenheim (<em className="text-text">Fullmetal Alchemist</em>)
-            u Okabe (<em className="text-text">Steins;Gate</em>)—.{" "}
-            <em className="text-text">AIM</em> logró nominaciones a Mejor
-            Portada en los Premios Índigo 2020 y a Mejor Disco de Metal
-            Extremo en los Premios Escuchar 2021.
+            evolución sonora hacia matices más ambientales y expansivos. En
+            esta época se destaca de forma clave la llegada de João Riveros
+            en la voz —quien aportó un amplio registro dinámico capaz de
+            cantar limpio de diversas maneras aparte de los gritos y
+            guturales— junto a la incorporación de Gustavo Plaza en el
+            bajo, consolidando una línea rítmica y vocal renovada.
+          </p>
+          <p>
+            <em className="text-text">AIM</em> introdujo baterías acústicas
+            grabadas y una lírica profundamente conceptual. Las letras de
+            la banda comenzaron a nutrirse tanto de la filosofía como de la
+            cultura pop, explorando emociones humanas y dilemas
+            existenciales. <em className="text-text">AIM</em> logró
+            nominaciones a Mejor Portada en los Premios Índigo 2020 y a
+            Mejor Disco de Metal Extremo en los Premios Escuchar 2021.
           </p>
         </div>
       </section>
@@ -194,8 +208,8 @@ function BiographyEN() {
           <p>
             The band&rsquo;s story goes back to 2011, when the idea first
             started taking shape on the second floor of Alberto&rsquo;s
-            house, alongside José and Felipe Cuevas (Destinos / Estudio
-            Arrebol). Driven by the impact of hearing Northlane&rsquo;s{" "}
+            house, alongside José Ramírez and Felipe Cuevas (Destinos /
+            Estudio Arrebol). Driven by the impact of hearing Northlane&rsquo;s{" "}
             <em className="text-text">Discoveries</em>, the three of them
             set out to explore the technical weight, low tunings, and
             atmospheres of modern progressive metalcore. Under the name{" "}
@@ -236,13 +250,20 @@ function BiographyEN() {
           <p>
             In 2018, the band took the definitive step toward their first
             full-length album with{" "}
-            <em className="text-text">Transmute</em>. Conceived as a
-            concept record, the album carried a blue, pristine, crystalline
-            aesthetic into both its sound and its visuals — surfaces that
-            look like ice or glass on the verge of fracturing — working as
-            a direct mirror of the album&rsquo;s concept: mutation, time
-            that stretches or breaks, and the cycle of creation and
-            destruction.
+            <em className="text-text">Transmute</em>. During this key
+            stage, José Ramírez served as the vocalist of the Transmute
+            era and the writer of its lyrics. Alongside him, the arrival
+            of Andrés Olivares on drums and Jaime García on bass brought a
+            rhythmic solidity, a technical groove, and a fundamental power
+            that helped define the band&rsquo;s new sonic architecture.
+          </p>
+          <p>
+            Conceived as a concept record, the album carried a blue,
+            pristine, crystalline aesthetic into both its sound and its
+            visuals — surfaces that look like ice or glass on the verge of
+            fracturing — working as a direct mirror of the album&rsquo;s
+            concept: mutation, time that stretches or breaks, and the
+            cycle of creation and destruction.
           </p>
           <p>
             <em className="text-text">Transmute</em> was put to the test
@@ -266,19 +287,25 @@ function BiographyEN() {
             sudden departure of their vocalist just hours before the show.
             Rather than cancel, they played the set entirely instrumental,
             turning the setback into a milestone of technical solidity.
+            Following this transitional stage, guitarist Alberto Barbano
+            stepped into the role of frontman to lead the band&rsquo;s next
+            chapter.
           </p>
           <p>
             In 2020, in the middle of the pandemic lockdown, they released
             the EP <em className="text-text">AIM</em>, marking a clear
-            sonic evolution toward more ambient, expansive textures. With
-            João Riveros joining on vocals and Andrés Olivares on drums,{" "}
+            sonic evolution toward more ambient, expansive textures. This
+            period saw the key arrival of João Riveros on vocals — who
+            brought a wide dynamic range capable of clean singing in
+            multiple styles beyond screams and growls — alongside the
+            addition of Gustavo Plaza on bass, consolidating a renewed
+            rhythmic and vocal lineup.
+          </p>
+          <p>
             <em className="text-text">AIM</em> introduced recorded acoustic
             drums and a deeply conceptual set of lyrics. The band&rsquo;s
             writing began drawing from both philosophy and pop culture,
-            using fictional archetypes and characters as mirrors for human
-            emotion — figures like Hohenheim (
-            <em className="text-text">Fullmetal Alchemist</em>) or Okabe (
-            <em className="text-text">Steins;Gate</em>).{" "}
+            exploring human emotions and existential dilemmas.{" "}
             <em className="text-text">AIM</em> went on to earn nominations
             for Best Cover Art at the 2020 Premios Índigo and Best Extreme
             Metal Album at the 2021 Premios Escuchar.

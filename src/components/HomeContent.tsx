@@ -106,7 +106,7 @@ export default function HomeContent({
         >
           <div className="mx-auto max-w-3xl px-6 py-20 sm:py-28">
             <div className="mb-12 flex items-center gap-4">
-              <span className="text-xs tracking-wider-label text-text-muted">
+              <span className="text-sm tracking-wider-label text-text-muted">
                 {t("home.nextShow")}
               </span>
               <div className="h-px flex-1 bg-line" />
@@ -127,7 +127,7 @@ export default function HomeContent({
       <section className="border-t border-line bg-bg">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <div className="mb-12 flex items-center gap-4">
-            <span className="text-xs tracking-wider-label text-text-muted">
+            <span className="text-sm tracking-wider-label text-text-muted">
               {t("home.latestRelease")}
             </span>
             <div className="h-px flex-1 bg-line" />
@@ -187,7 +187,7 @@ export default function HomeContent({
         <section className="border-t border-line bg-bg-elevated">
           <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
             <div className="mb-12 flex items-center gap-4">
-              <span className="text-xs tracking-wider-label text-text-muted">
+              <span className="text-sm tracking-wider-label text-text-muted">
                 {t("home.gallery")}
               </span>
               <div className="h-px flex-1 bg-line" />
@@ -201,7 +201,7 @@ export default function HomeContent({
       <section className="border-t border-line bg-bg">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <div className="mb-12 flex items-center gap-4">
-            <span className="text-xs tracking-wider-label text-text-muted">
+            <span className="text-sm tracking-wider-label text-text-muted">
               {t("home.videos")}
             </span>
             <div className="h-px flex-1 bg-line" />
@@ -251,7 +251,7 @@ export default function HomeContent({
       <section className="border-t border-line bg-bg-elevated">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <div className="mb-12 flex items-center gap-4">
-            <span className="text-xs tracking-wider-label text-text-muted">
+            <span className="text-sm tracking-wider-label text-text-muted">
               {t("home.playlist")}
             </span>
             <div className="h-px flex-1 bg-line" />
@@ -279,7 +279,7 @@ export default function HomeContent({
       <section className="border-t border-line bg-bg">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <div className="mb-12 flex items-center gap-4">
-            <span className="text-xs tracking-wider-label text-text-muted">
+            <span className="text-sm tracking-wider-label text-text-muted">
               {t("home.press")}
             </span>
             <div className="h-px flex-1 bg-line" />
@@ -314,7 +314,7 @@ export default function HomeContent({
       <section className="border-t border-line bg-bg-elevated">
         <div className="mx-auto max-w-3xl px-6 py-20 sm:py-28">
           <div className="mb-12 flex items-center gap-4">
-            <span className="text-xs tracking-wider-label text-text-muted">
+            <span className="text-sm tracking-wider-label text-text-muted">
               {t("home.survey")}
             </span>
             <div className="h-px flex-1 bg-line" />
@@ -331,7 +331,7 @@ export default function HomeContent({
       <section className="border-t border-line bg-bg">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <div className="mb-12 flex items-center gap-4">
-            <span className="text-xs tracking-wider-label text-text-muted">
+            <span className="text-sm tracking-wider-label text-text-muted">
               {t("home.quickLinks")}
             </span>
             <div className="h-px flex-1 bg-line" />
@@ -370,7 +370,7 @@ export default function HomeContent({
       <section className="border-t border-line bg-bg-elevated">
         <div className="mx-auto max-w-3xl px-6 py-20 sm:py-28">
           <div className="mb-12 flex items-center gap-4">
-            <span className="text-xs tracking-wider-label text-text-muted">
+            <span className="text-sm tracking-wider-label text-text-muted">
               {t("home.support")}
             </span>
             <div className="h-px flex-1 bg-line" />
