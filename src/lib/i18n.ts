@@ -139,10 +139,19 @@ export const dict = {
   "contacto.subject": { es: "Asunto", en: "Subject" },
   "contacto.message": { es: "Mensaje", en: "Message" },
   "contacto.send": { es: "Enviar mensaje", en: "Send message" },
-  "contacto.sentTitle": { es: "REVISA TU CORREO", en: "CHECK YOUR EMAIL" },
+  "contacto.sending": { es: "Enviando...", en: "Sending..." },
+  "contacto.sentTitle": { es: "MENSAJE ENVIADO", en: "MESSAGE SENT" },
   "contacto.sentBody1": {
-    es: "Se abrió tu cliente de correo con el mensaje precargado. Solo confirma el envío para que llegue a",
-    en: "Your email client opened with the message pre-filled. Just confirm sending so it reaches",
+    es: "Gracias por escribir. Te vamos a responder a",
+    en: "Thanks for writing. We'll get back to you at",
+  },
+  "contacto.sentBody2": {
+    es: "a la brevedad.",
+    en: "as soon as possible.",
+  },
+  "contacto.error": {
+    es: "No se pudo enviar el mensaje. Intenta de nuevo o escríbenos directo a",
+    en: "The message couldn't be sent. Please try again or email us directly at",
   },
   "contacto.bookingContact": {
     es: "Booking & contacto",

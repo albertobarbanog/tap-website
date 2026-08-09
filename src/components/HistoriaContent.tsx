@@ -46,121 +46,138 @@ function BiographyES() {
         </h2>
         <div className="mt-6 flex flex-col gap-6 text-[15px] leading-relaxed text-[#e5e5e5] sm:text-base sm:leading-relaxed">
           <p>
-            Todo empezó en el segundo piso de la casa de Alberto, en
-            Santiago: dos guitarras, un amplificador compartido y las tardes
-            que le sobraban a José después del liceo. No había plan, ni
-            nombre, ni fecha de partida. Había, eso sí, la misma pregunta
-            repetida semana tras semana: qué pasaría si esas ideas sueltas —
-            un riff, un cambio de compás, una progresión que no calzaba con
-            nada que estuvieran escuchando en ese momento — se dejaban crecer
-            en lugar de descartarlas.
+            La historia de la banda se remonta a 2011, cuando la idea
+            comenzó a gestarse en el segundo piso de la casa de Alberto
+            junto a José y Felipe Cuevas (Destinos / Estudio Arrebol).
+            Impulsados por el impacto que dejó en ellos haber escuchado{" "}
+            <em className="text-text">Discoveries</em> de Northlane, surgió
+            la intención de explorar el peso técnico, la afinación baja y
+            las atmósferas del metalcore progresivo moderno. Bajo el nombre{" "}
+            <em className="text-text">Antarctica</em>, el grupo alcanzó a
+            materializar su primer hito con el sencillo{" "}
+            <em className="text-text">Reset</em> (2012) tras ganar un
+            concurso de grabación. Aunque esa primera etapa se disolvió poco
+            después, la semilla del proyecto quedó plantada.
           </p>
           <p>
-            El nombre llegó antes que la banda misma. Se llamaron{" "}
-            <em className="text-text">Antarctica</em>: una palabra que
-            cargaba distancia, vacío, un lugar que casi nadie pisa. Con el
-            tiempo, a medida que la formación se estabilizaba y el proyecto
-            dejaba de ser un ensayo de fin de semana para convertirse en algo
-            con continuidad, el nombre mutó a{" "}
-            <em className="text-text">The Antarctica Project</em>. El cambio
-            no fue cosmético: la palabra &ldquo;proyecto&rdquo; declaraba lo
-            que la banda quería ser desde el principio, un trabajo en
-            construcción permanente, sin la pretensión de llegar a una forma
-            final y quedarse ahí.
+            El nombre Antarctica conectaba de forma natural con la
+            geografía e identidad chilena, evocando la fuerza simbólica de
+            un territorio lejano, cargado de enigmas y secretos sepultados
+            bajo el hielo. En 2016, José Ramírez y Alberto Barbano
+            decidieron revivir la banda con una visión renovada y un nuevo
+            nombre: <em className="text-text">The Antarctica Project</em>.
+            Añadir la palabra &ldquo;Project&rdquo; no fue una decisión
+            cosmética; le dio una impronta más seria y declaró la
+            naturaleza fundamental del grupo: un trabajo en permanente
+            construcción, sin la pretensión de quedarse en una forma
+            estática.
           </p>
           <p>
-            Esa lógica de construcción constante definió también el sonido.
-            Ni Alberto ni José querían repetir la fórmula directa del
-            metalcore clásico — breakdown, estribillo, breakdown — sin
-            cuestionarla. Empezaron a estirar las estructuras, a meter
-            compases impares donde el oído esperaba algo cuadrado, a tratar
-            la agresión y la complejidad como dos caras de la misma canción
-            en lugar de dos géneros distintos. De ahí nace el término que hoy
-            usan para describirse: <em className="text-text">
-              metalcore progresivo
-            </em>, un punto de encuentro entre el peso físico del breakdown y
-            la curiosidad estructural de lo progresivo.
+            Ese nuevo impulso se concretó rápidamente en 2017 con el
+            sencillo <em className="text-text">Timebreaker</em>, su primer
+            lanzamiento oficial bajo el nuevo nombre (que les valió una
+            nominación a los Premios Escuchar 2018).
           </p>
         </div>
       </section>
 
       <section>
         <h2 className="font-display text-xl tracking-wide-label text-text sm:text-2xl">
-          La Era &lsquo;Transmute&rsquo; y la Evolución Sonora
+          La Era &lsquo;Transmute&rsquo; (2018)
         </h2>
         <div className="mt-6 flex flex-col gap-6 text-[15px] leading-relaxed text-[#e5e5e5] sm:text-base sm:leading-relaxed">
           <p>
-            En 2018, esas primeras ideas del segundo piso se convirtieron en{" "}
-            <em className="text-text">Transmute</em>, el álbum debut de la
-            banda. Fue el primer intento serio de traducir a un disco
-            completo lo que hasta entonces solo existía en maquetas: una
-            propuesta que exigía tanto de la técnica instrumental como de la
-            capacidad de la banda para sostener una idea a lo largo de una
-            canción entera, sin resolverla demasiado rápido.
+            En 2018, la banda dio el paso definitivo hacia su primer álbum
+            de larga duración con <em className="text-text">Transmute</em>.
+            Concebido como una obra conceptual, el disco trasladó a lo
+            visual y lo sonoro una estética azul, prístina y cristalina
+            —superficies que parecen hielo o vidrio a punto de
+            fracturarse— funcionando como espejo directo del concepto del
+            álbum: la mutación, el tiempo que se estira o se quiebra, y el
+            ciclo de creación y destrucción.
           </p>
           <p>
-            <em className="text-text">Transmute</em> se construyó como un
-            disco conceptual, organizado alrededor de un puñado de ideas que
-            se repiten y se transforman entre canción y canción: el espacio
-            como vacío y como posibilidad, el tiempo como algo que se puede
-            estirar o quebrar, y el ciclo de creación y destrucción como
-            motor de cualquier cambio real. La mutación del título no era
-            solo una imagen — era literalmente lo que le pasaba al material
-            sonoro de una pista a la siguiente.
-          </p>
-          <p>
-            Esa idea de mutación se hizo visible también fuera de la música.
-            Desde el arte de portada hasta el primer merch, la banda adoptó
-            una estética azul y cristalina — superficies que parecen hielo o
-            vidrio a punto de fracturarse — que funcionaba como espejo
-            directo del concepto del disco. No fue una decisión improvisada:
-            cada elemento visual de la era{" "}
-            <em className="text-text">Transmute</em> se pensó con el mismo
-            cuidado que una canción, entendiendo que la identidad de la banda
-            no terminaba en el audio.
+            <em className="text-text">Transmute</em> se probó en los
+            escenarios con un show de lanzamiento totalmente
+            autoproducido, estableciendo el nivel de exigencia técnica, las
+            secuencias complejas y la pulcritud sonora que caracterizan a
+            la banda en vivo.
           </p>
         </div>
       </section>
 
       <section>
         <h2 className="font-display text-xl tracking-wide-label text-text sm:text-2xl">
-          Madurez y Presente
+          Evolución, &lsquo;AIM&rsquo; y la Gira a Córdoba (2019 – 2020)
         </h2>
         <div className="mt-6 flex flex-col gap-6 text-[15px] leading-relaxed text-[#e5e5e5] sm:text-base sm:leading-relaxed">
           <p>
-            Los años que siguieron a{" "}
-            <em className="text-text">Transmute</em> fueron, sobre todo,
-            años de resistencia. Sostener una banda de metalcore progresivo
-            dentro del underground chileno significa tocar en salas
-            pequeñas, cargar los propios equipos, y volver a empezar cada
-            vez que la formación cambia — algo que The Antarctica Project ha
-            enfrentado más de una vez sin detener el proyecto ni una sola
-            vez.
+            El camino de The Antarctica Project ha estado definido por la
+            resistencia dentro del underground chileno y la capacidad de
+            superar contratiempos. En 2019, durante su primera gira
+            internacional a Córdoba, Argentina, la banda enfrentó la salida
+            repentina de su vocalista horas antes del show. Lejos de
+            cancelar, se presentaron en formato 100% instrumental,
+            convirtiendo la dificultad en un hito de solidez técnica.
           </p>
           <p>
-            Con los años, esa resistencia se transformó en precisión. Lo que
-            en <em className="text-text">Transmute</em> era ambición hoy es
-            oficio: cambios de compás ejecutados con exactitud, arreglos que
-            se pulen en el ensayo antes de llegar al escenario, un nivel de
-            exigencia técnica que la banda se impone a sí misma disco tras
-            disco. No como un ejercicio de virtuosismo vacío, sino como una
-            manera de honrar canciones que fueron escritas para ser
-            difíciles.
-          </p>
-          <p>
-            Esa misma disciplina es la que sostiene el compromiso de la
-            banda con el show en vivo. Para The Antarctica Project el
-            escenario no es una réplica del disco, es donde la música
-            termina de probarse: da lo mismo si es una sala llena en
-            Santiago o una tocata pequeña en el sur, la exigencia es la
-            misma. Hoy, con la base de <em className="text-text">
-              Transmute
-            </em>{" "}
-            ya consolidada, la banda sigue tocando desde ese mismo lugar —
-            un proyecto que no dejó de mutar desde el segundo piso de
-            aquella casa.
+            En 2020, en pleno confinamiento por la pandemia, lanzaron el EP{" "}
+            <em className="text-text">AIM</em>, marcando una clara
+            evolución sonora hacia matices más ambientales y expansivos.
+            Con la incorporación de João Riveros en la voz y Andrés
+            Olivares en la batería, <em className="text-text">AIM</em>{" "}
+            introdujo baterías acústicas grabadas y una lírica profundamente
+            conceptual. Las letras de la banda comenzaron a nutrirse tanto
+            de la filosofía como de la cultura pop, utilizando arquetipos y
+            personajes de ficción como espejos de emociones humanas —como
+            Hohenheim (<em className="text-text">Fullmetal Alchemist</em>)
+            u Okabe (<em className="text-text">Steins;Gate</em>)—.{" "}
+            <em className="text-text">AIM</em> logró nominaciones a Mejor
+            Portada en los Premios Índigo 2020 y a Mejor Disco de Metal
+            Extremo en los Premios Escuchar 2021.
           </p>
         </div>
+      </section>
+
+      <section>
+        <h2 className="font-display text-xl tracking-wide-label text-text sm:text-2xl">
+          La Consolidación y el Lanzamiento de &lsquo;Chrono
+          Reverie&rsquo; (2026)
+        </h2>
+        <div className="mt-6 flex flex-col gap-6 text-[15px] leading-relaxed text-[#e5e5e5] sm:text-base sm:leading-relaxed">
+          <p>
+            Con la formación integrada por João Riveros (voz), Alberto
+            Barbano (guitarra), Andrés Olivares (batería), Felipe Cuevas
+            (guitarra) y Gustavo Plaza (bajo), The Antarctica Project
+            inició una nueva etapa de madurez artística y mayor ambición
+            técnica.
+          </p>
+          <p>
+            En marzo de 2026, la banda estrenó mundialmente su sencillo y
+            video oficial &ldquo;Chrono Reverie&rdquo;, un trabajo que
+            lleva la propuesta conceptual del grupo a su punto más
+            elevado. Con una producción audiovisual impecable y una
+            lírica cargada de metáforas sobre el tiempo, la memoria, el
+            impresionismo y las dinámicas familiares creadoras y
+            destructoras, &ldquo;Chrono Reverie&rdquo; reafirma la
+            identidad de TAP: metalcore progresivo de precisión,
+            atmósferas densas y una narrativa donde la música y la
+            estética visual se funden en una sola experiencia.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 className="font-display text-xl tracking-wide-label text-text sm:text-2xl">
+          Formación Actual
+        </h2>
+        <ul className="mt-6 flex flex-col gap-2 text-[15px] leading-relaxed text-[#e5e5e5] sm:text-base">
+          <li>João Riveros — Voz</li>
+          <li>Alberto Barbano — Guitarra</li>
+          <li>Felipe Cuevas — Guitarra</li>
+          <li>Gustavo Plaza — Bajo</li>
+          <li>Andrés Olivares — Batería</li>
+        </ul>
       </section>
     </>
   );
@@ -175,120 +192,139 @@ function BiographyEN() {
         </h2>
         <div className="mt-6 flex flex-col gap-6 text-[15px] leading-relaxed text-[#e5e5e5] sm:text-base sm:leading-relaxed">
           <p>
-            It all started on the second floor of Alberto&rsquo;s house, in
-            Santiago: two guitars, one shared amplifier, and whatever
-            afternoons José had left after school. There was no plan, no
-            name, no starting date. What there was, though, was the same
-            question repeated week after week: what would happen if those
-            loose ideas — a riff, a shifted time signature, a progression
-            that didn&rsquo;t match anything they were listening to at the
-            time — were allowed to grow instead of being discarded.
+            The band&rsquo;s story goes back to 2011, when the idea first
+            started taking shape on the second floor of Alberto&rsquo;s
+            house, alongside José and Felipe Cuevas (Destinos / Estudio
+            Arrebol). Driven by the impact of hearing Northlane&rsquo;s{" "}
+            <em className="text-text">Discoveries</em>, the three of them
+            set out to explore the technical weight, low tunings, and
+            atmospheres of modern progressive metalcore. Under the name{" "}
+            <em className="text-text">Antarctica</em>, the group reached
+            its first real milestone with the single{" "}
+            <em className="text-text">Reset</em> (2012), released after
+            winning a recording contest. That first chapter dissolved not
+            long after, but the seed of the project had already been
+            planted.
           </p>
           <p>
-            The name came before the band itself. They called themselves{" "}
-            <em className="text-text">Antarctica</em>: a word loaded with
-            distance, emptiness, a place almost no one sets foot on. Over
-            time, as the lineup stabilized and the project stopped being a
-            weekend rehearsal and became something with continuity, the
-            name mutated into{" "}
-            <em className="text-text">The Antarctica Project</em>. The
-            change wasn&rsquo;t cosmetic: the word &ldquo;project&rdquo;
-            declared what the band wanted to be from the start — a
-            permanent work in progress, with no pretension of ever arriving
-            at a final form and staying there.
+            The name Antarctica connected naturally with Chilean geography
+            and identity, evoking the symbolic weight of a distant
+            territory, full of mysteries and secrets buried under the ice.
+            In 2016, José Ramírez and Alberto Barbano decided to revive the
+            band with a renewed vision and a new name:{" "}
+            <em className="text-text">The Antarctica Project</em>. Adding
+            the word &ldquo;Project&rdquo; wasn&rsquo;t a cosmetic choice;
+            it gave the name a more serious edge and declared the
+            group&rsquo;s fundamental nature: a permanent work in
+            progress, with no pretension of ever settling into a fixed,
+            final form.
           </p>
           <p>
-            That same logic of constant construction also defined the
-            sound. Neither Alberto nor José wanted to repeat classic
-            metalcore&rsquo;s straightforward formula — breakdown, chorus,
-            breakdown — without questioning it. They started stretching
-            structures, dropping odd time signatures where the ear expected
-            something square, treating aggression and complexity as two
-            sides of the same song instead of two separate genres.
-            That&rsquo;s where the term they use to describe themselves
-            today comes from:{" "}
-            <em className="text-text">progressive metalcore</em>, a meeting
-            point between the physical weight of the breakdown and the
-            structural curiosity of the progressive.
+            That new momentum quickly took shape in 2017 with the single{" "}
+            <em className="text-text">Timebreaker</em>, their first
+            official release under the new name — one that earned them a
+            nomination at the 2018 Premios Escuchar.
           </p>
         </div>
       </section>
 
       <section>
         <h2 className="font-display text-xl tracking-wide-label text-text sm:text-2xl">
-          The &lsquo;Transmute&rsquo; Era and Its Sonic Evolution
+          The &lsquo;Transmute&rsquo; Era (2018)
         </h2>
         <div className="mt-6 flex flex-col gap-6 text-[15px] leading-relaxed text-[#e5e5e5] sm:text-base sm:leading-relaxed">
           <p>
-            In 2018, those first ideas from the second floor became{" "}
-            <em className="text-text">Transmute</em>, the band&rsquo;s
-            debut album. It was the first serious attempt to translate into
-            a full record what until then had only existed as demos: a
-            record that demanded as much from the band&rsquo;s instrumental
-            technique as from its ability to sustain an idea across an
-            entire song without resolving it too soon.
+            In 2018, the band took the definitive step toward their first
+            full-length album with{" "}
+            <em className="text-text">Transmute</em>. Conceived as a
+            concept record, the album carried a blue, pristine, crystalline
+            aesthetic into both its sound and its visuals — surfaces that
+            look like ice or glass on the verge of fracturing — working as
+            a direct mirror of the album&rsquo;s concept: mutation, time
+            that stretches or breaks, and the cycle of creation and
+            destruction.
           </p>
           <p>
-            <em className="text-text">Transmute</em> was built as a concept
-            album, organized around a handful of ideas that repeat and
-            transform from song to song: space as both void and
-            possibility, time as something that can stretch or break, and
-            the cycle of creation and destruction as the engine of any real
-            change. The mutation in the title wasn&rsquo;t just an image —
-            it was literally what happened to the sonic material from one
-            track to the next.
-          </p>
-          <p>
-            That idea of mutation became visible outside the music too.
-            From the cover art to the first merch drop, the band adopted a
-            blue, crystalline aesthetic — surfaces that look like ice or
-            glass about to fracture — that worked as a direct mirror of the
-            album&rsquo;s concept. It wasn&rsquo;t an improvised decision:
-            every visual element of the{" "}
-            <em className="text-text">Transmute</em> era was thought
-            through with the same care as a song, understanding that the
-            band&rsquo;s identity didn&rsquo;t end at the audio.
+            <em className="text-text">Transmute</em> was put to the test
+            on stage with a fully self-produced release show, setting the
+            standard for technical demand, complex sequencing, and sonic
+            precision that would go on to define the band live.
           </p>
         </div>
       </section>
 
       <section>
         <h2 className="font-display text-xl tracking-wide-label text-text sm:text-2xl">
-          Maturity and the Present
+          Evolution, &lsquo;AIM,&rsquo; and the Córdoba Tour (2019–2020)
         </h2>
         <div className="mt-6 flex flex-col gap-6 text-[15px] leading-relaxed text-[#e5e5e5] sm:text-base sm:leading-relaxed">
           <p>
-            The years following <em className="text-text">Transmute</em>{" "}
-            were, above all, years of persistence. Keeping a progressive
-            metalcore band alive within the Chilean underground means
-            playing small venues, hauling your own gear, and starting over
-            every time the lineup changes — something The Antarctica
-            Project has faced more than once without ever stopping the
-            project.
+            The Antarctica Project&rsquo;s path has been defined by
+            persistence within the Chilean underground and an ability to
+            push through setbacks. In 2019, during their first
+            international tour to Córdoba, Argentina, the band faced the
+            sudden departure of their vocalist just hours before the show.
+            Rather than cancel, they played the set entirely instrumental,
+            turning the setback into a milestone of technical solidity.
           </p>
           <p>
-            Over the years, that persistence turned into precision. What
-            was ambition on <em className="text-text">Transmute</em> is
-            craft today: time-signature changes executed with exactness,
-            arrangements polished in rehearsal before they ever reach the
-            stage, a level of technical demand the band holds itself to
-            record after record. Not as an exercise in empty virtuosity,
-            but as a way of honoring songs that were written to be
-            difficult.
-          </p>
-          <p>
-            That same discipline is what sustains the band&rsquo;s
-            commitment to the live show. For The Antarctica Project, the
-            stage isn&rsquo;t a replica of the record — it&rsquo;s where
-            the music finally proves itself: it makes no difference whether
-            it&rsquo;s a packed room in Santiago or a small show down
-            south, the standard is the same. Today, with the foundation{" "}
-            <em className="text-text">Transmute</em> laid now firmly in
-            place, the band keeps playing from that same place — a project
-            that never stopped mutating since the second floor of that
-            house.
+            In 2020, in the middle of the pandemic lockdown, they released
+            the EP <em className="text-text">AIM</em>, marking a clear
+            sonic evolution toward more ambient, expansive textures. With
+            João Riveros joining on vocals and Andrés Olivares on drums,{" "}
+            <em className="text-text">AIM</em> introduced recorded acoustic
+            drums and a deeply conceptual set of lyrics. The band&rsquo;s
+            writing began drawing from both philosophy and pop culture,
+            using fictional archetypes and characters as mirrors for human
+            emotion — figures like Hohenheim (
+            <em className="text-text">Fullmetal Alchemist</em>) or Okabe (
+            <em className="text-text">Steins;Gate</em>).{" "}
+            <em className="text-text">AIM</em> went on to earn nominations
+            for Best Cover Art at the 2020 Premios Índigo and Best Extreme
+            Metal Album at the 2021 Premios Escuchar.
           </p>
         </div>
+      </section>
+
+      <section>
+        <h2 className="font-display text-xl tracking-wide-label text-text sm:text-2xl">
+          Consolidation and the Release of &lsquo;Chrono Reverie&rsquo;
+          (2026)
+        </h2>
+        <div className="mt-6 flex flex-col gap-6 text-[15px] leading-relaxed text-[#e5e5e5] sm:text-base sm:leading-relaxed">
+          <p>
+            With a lineup now made up of João Riveros (vocals), Alberto
+            Barbano (guitar), Andrés Olivares (drums), Felipe Cuevas
+            (guitar), and Gustavo Plaza (bass), The Antarctica Project
+            entered a new stage of artistic maturity and greater technical
+            ambition.
+          </p>
+          <p>
+            In March 2026, the band premiered their single and official
+            video for &ldquo;Chrono Reverie&rdquo; worldwide, a work that
+            pushes the group&rsquo;s conceptual vision to its highest
+            point yet. With impeccable audiovisual production and lyrics
+            layered with metaphors about time, memory, impressionism, and
+            the creative and destructive dynamics of family, &ldquo;Chrono
+            Reverie&rdquo; reaffirms TAP&rsquo;s identity: precision
+            progressive metalcore, dense atmospheres, and a narrative
+            where music and visual aesthetics merge into a single
+            experience.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 className="font-display text-xl tracking-wide-label text-text sm:text-2xl">
+          Current Lineup
+        </h2>
+        <ul className="mt-6 flex flex-col gap-2 text-[15px] leading-relaxed text-[#e5e5e5] sm:text-base">
+          <li>João Riveros — Vocals</li>
+          <li>Alberto Barbano — Guitar</li>
+          <li>Felipe Cuevas — Guitar</li>
+          <li>Gustavo Plaza — Bass</li>
+          <li>Andrés Olivares — Drums</li>
+        </ul>
       </section>
     </>
   );
