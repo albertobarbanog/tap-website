@@ -20,6 +20,7 @@ import SurveyForm from "@/components/SurveyForm";
 import { YoutubeIcon } from "@/components/BrandIcons";
 import { useLanguage } from "@/context/LanguageContext";
 import type { DictKey } from "@/lib/i18n";
+import { formatReleaseDate } from "@/lib/formatDate";
 import type { Release, Concert } from "@/lib/data";
 import {
   merchUrl,
@@ -39,7 +40,7 @@ export default function HomeContent({
   nextShow: Concert | undefined;
   bandaPhotos: string[];
 }) {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
 
   return (
     <div>
@@ -155,7 +156,7 @@ export default function HomeContent({
             <div className="flex flex-col justify-center">
               <span className="font-mono text-xs tracking-wide-label text-text-muted">
                 {t(`type.${latest.type}` as DictKey).toUpperCase()} ·{" "}
-                {latest.year}
+                {formatReleaseDate(latest.releaseDate, lang)}
               </span>
               <h2 className="font-display mt-3 text-3xl tracking-wide-label text-text sm:text-4xl">
                 {latest.title}

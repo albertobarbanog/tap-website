@@ -121,6 +121,7 @@ export type Release = {
   id: string;
   title: string;
   year: number;
+  releaseDate: string; // ISO YYYY-MM-DD
   type: "Álbum" | "EP" | "Single";
   edition?: "instrumental";
   feat?: string;
@@ -139,6 +140,7 @@ export const releases: Release[] = [
     id: "transmute",
     title: "Transmute",
     year: 2018,
+    releaseDate: "2018-01-05",
     type: "Álbum",
     tracklist: [
       "Arche (02:15)",
@@ -161,6 +163,7 @@ export const releases: Release[] = [
     title: "Transmute",
     edition: "instrumental",
     year: 2019,
+    releaseDate: "2019-01-05",
     type: "Álbum",
     tracklist: [
       "Arche (Instrumental) (02:15)",
@@ -183,6 +186,7 @@ export const releases: Release[] = [
     id: "chromatic-skies",
     title: "Chromatic Skies",
     year: 2024,
+    releaseDate: "2024-06-06",
     type: "EP",
     tracklist: [
       "An Endless Journey (05:48)",
@@ -200,6 +204,7 @@ export const releases: Release[] = [
     id: "aim",
     title: "AIM",
     year: 2020,
+    releaseDate: "2020-04-10",
     type: "EP",
     tracklist: [
       "La Flamme (04:30)",
@@ -218,6 +223,7 @@ export const releases: Release[] = [
     title: "AIM",
     edition: "instrumental",
     year: 2021,
+    releaseDate: "2021-04-15",
     type: "EP",
     tracklist: [
       "La Flamme (Instrumental) (04:30)",
@@ -236,6 +242,7 @@ export const releases: Release[] = [
     id: "chrono-reverie",
     title: "Chrono Reverie",
     year: 2026,
+    releaseDate: "2026-03-27",
     type: "Single",
     tracklist: ["Sync01 (01:35)", "Chrono Reverie (04:31)"],
     cover: { seed: 6, label: "CHRONO REVERIE" },
@@ -248,6 +255,7 @@ export const releases: Release[] = [
     id: "my-endless-journey",
     title: "My Endless Journey",
     year: 2025,
+    releaseDate: "2025-11-20",
     type: "Single",
     tracklist: ["My Endless Journey (05:48)"],
     cover: { seed: 7, label: "MY ENDLESS JOURNEY" },
@@ -261,6 +269,7 @@ export const releases: Release[] = [
     title: "Owari",
     feat: "Destinos & José Ramírez",
     year: 2023,
+    releaseDate: "2023-02-10",
     type: "Single",
     tracklist: [
       "Owari (feat. Destinos & José Ramírez) (05:19)",
@@ -275,6 +284,7 @@ export const releases: Release[] = [
     id: "faceshifters",
     title: "Faceshifters",
     year: 2021,
+    releaseDate: "2021-06-04",
     type: "Single",
     tracklist: ["Faceshifters (04:40)", "Faceshifters (Instrumental) (04:40)"],
     cover: { seed: 9, label: "FACESHIFTERS" },
@@ -287,7 +297,8 @@ export const releases: Release[] = [
     id: "ominous-valley-instrumental-single",
     title: "Ominous Valley",
     edition: "instrumental",
-    year: 2020,
+    year: 2019,
+    releaseDate: "2019-06-09",
     type: "Single",
     tracklist: ["Ominous Valley (Instrumental) (04:15)"],
     cover: { seed: 12, label: "OMINOUS VALLEY" },
@@ -299,7 +310,8 @@ export const releases: Release[] = [
   {
     id: "ominous-valley-single",
     title: "Ominous Valley",
-    year: 2020,
+    year: 2018,
+    releaseDate: "2018-12-16",
     type: "Single",
     tracklist: ["Ominous Valley (04:15)"],
     cover: { seed: 11, label: "OMINOUS VALLEY" },
@@ -311,7 +323,8 @@ export const releases: Release[] = [
   {
     id: "timebreaker",
     title: "Timebreaker",
-    year: 2018,
+    year: 2017,
+    releaseDate: "2017-06-22",
     type: "Single",
     tracklist: ["Timebreaker (04:02)"],
     cover: { seed: 10, label: "TIMEBREAKER" },

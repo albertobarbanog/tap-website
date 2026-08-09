@@ -6,12 +6,13 @@ import { ChevronDown, ExternalLink } from "lucide-react";
 import AlbumCover from "@/components/AlbumCover";
 import StreamLinksRow from "@/components/StreamLinks";
 import { useLanguage } from "@/context/LanguageContext";
+import { formatReleaseDate } from "@/lib/formatDate";
 import type { DictKey } from "@/lib/i18n";
 import type { Release } from "@/lib/data";
 
 export default function ReleaseCard({ release }: { release: Release }) {
   const [open, setOpen] = useState(false);
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const expandable = release.tracklist.length > 1;
 
   return (
@@ -62,7 +63,7 @@ export default function ReleaseCard({ release }: { release: Release }) {
             {release.edition === "instrumental"
               ? ` · ${t("discografia.instrumentalEdition")}`
               : ""}{" "}
-            · {release.year}
+            · {formatReleaseDate(release.releaseDate, lang)}
           </span>
           <a
             href={release.bandcampUrl}
