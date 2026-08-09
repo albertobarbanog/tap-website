@@ -23,10 +23,35 @@ const plexMono = IBM_Plex_Mono({
   weight: ["400", "500"],
 });
 
+const siteUrl = "https://www.theantarcticaproject.com";
+const description =
+  "The Antarctica Project — sitio oficial de la banda de metalcore progresivo. Conciertos, discografía, historia e integrantes.";
+
 export const metadata: Metadata = {
-  title: "The Antarctica Project",
-  description:
-    "The Antarctica Project — sitio oficial de la banda. Conciertos, discografía, historia e integrantes.",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "The Antarctica Project",
+    template: "%s",
+  },
+  description,
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "website",
+    url: siteUrl,
+    siteName: "The Antarctica Project",
+    title: "The Antarctica Project",
+    description,
+    images: [{ url: "/images/hero-band.jpg", width: 1200, height: 800 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Antarctica Project",
+    description,
+    images: ["/images/hero-band.jpg"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
