@@ -8,7 +8,7 @@ import Providers from "@/components/Providers";
 const jost = Jost({
   variable: "--font-jost",
   subsets: ["latin"],
-  weight: ["300", "400", "500"],
+  weight: ["300", "400", "500", "600"],
 });
 
 const inter = Inter({

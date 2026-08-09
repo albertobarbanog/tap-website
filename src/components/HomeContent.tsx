@@ -219,7 +219,7 @@ export default function HomeContent({
                 className="text-text-muted transition-colors group-hover:text-accent"
               />
               <div>
-                <span className="font-display block text-xl tracking-wide-label text-text">
+                <span className="font-display block text-xl font-semibold tracking-wide-label text-text">
                   YouTube
                 </span>
                 <span className="mt-1 block max-w-md text-sm text-text-muted">
@@ -296,7 +296,7 @@ export default function HomeContent({
                 className="text-text-muted transition-colors group-hover:text-accent"
               />
               <div>
-                <span className="font-display block text-xl tracking-wide-label text-text">
+                <span className="font-display block text-xl font-semibold tracking-wide-label text-text">
                   EPK
                 </span>
                 <span className="mt-1 block max-w-md text-sm text-text-muted">
@@ -414,7 +414,7 @@ function QuickLink({
         {icon}
       </div>
       <div className="mt-10">
-        <span className="font-display block text-lg tracking-wide-label text-text">
+        <span className="font-display block text-lg font-semibold tracking-wide-label text-text">
           {label}
         </span>
         <span className="mt-1 block text-xs text-text-faint">{desc}</span>

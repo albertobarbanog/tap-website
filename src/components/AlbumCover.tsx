@@ -89,7 +89,7 @@ export default function AlbumCover({
         <span className="font-mono text-[10px] tracking-wide-label text-text-muted">
           {type.toUpperCase()} · {year}
         </span>
-        <span className="font-display text-xl leading-tight tracking-wide-label text-text sm:text-2xl">
+        <span className="font-display text-xl font-semibold leading-tight tracking-wide-label text-text sm:text-2xl">
           {label}
         </span>
       </div>

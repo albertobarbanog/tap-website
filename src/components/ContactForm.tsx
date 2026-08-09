@@ -44,7 +44,7 @@ export default function ContactForm() {
           <Check size={18} />
         </div>
         <div>
-          <p className="font-display text-lg tracking-wide-label text-text">
+          <p className="font-display text-lg font-semibold tracking-wide-label text-text">
             {t("contacto.sentTitle")}
           </p>
           <p className="mt-2 max-w-sm text-sm text-text-muted">

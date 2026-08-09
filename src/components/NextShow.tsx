@@ -23,7 +23,7 @@ export default function NextShow({ concert }: { concert: Concert }) {
     <div className="border border-line bg-bg-elevated">
       <div className="grid grid-cols-1 sm:grid-cols-[160px_1fr]">
         <div className="flex flex-row items-center justify-center gap-2 border-b border-line px-6 py-8 sm:flex-col sm:gap-1 sm:border-b-0 sm:border-r sm:py-10">
-          <span className="font-display text-4xl text-text sm:text-5xl">
+          <span className="font-display text-4xl font-semibold text-text sm:text-5xl">
             {day}
           </span>
           <div className="flex flex-col sm:items-center">
@@ -44,7 +44,7 @@ export default function NextShow({ concert }: { concert: Concert }) {
                     key={act}
                     className={
                       isBand
-                        ? "font-display text-xl tracking-wide-label text-text sm:text-2xl"
+                        ? "font-display text-xl font-semibold tracking-wide-label text-text sm:text-2xl"
                         : "text-sm text-text-muted"
                     }
                   >

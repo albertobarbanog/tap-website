@@ -72,6 +72,12 @@ body::before {
   font-family: var(--font-display), sans-serif;
 }
 
+h1.font-display,
+h2.font-display,
+h3.font-display {
+  font-weight: 600;
+}
+
 .font-mono {
   font-family: var(--font-mono), monospace;
 }
