@@ -175,7 +175,7 @@ export const releases: Release[] = [
     cover: { seed: 2, label: "TRANSMUTE" },
     coverUrl: "https://f4.bcbits.com/img/a2976198030_10.jpg",
     bandcampUrl:
-      "https://theantarcticaproject.bandcamp.com/album/transmute-instrumental-edition",
+      "https://theantarcticaproject.bandcamp.com/album/transmute-instrumental",
     links: artistLinks,
   },
   {
@@ -267,8 +267,7 @@ export const releases: Release[] = [
     ],
     cover: { seed: 8, label: "OWARI" },
     coverUrl: "https://f4.bcbits.com/img/a3260950672_10.jpg",
-    bandcampUrl:
-      "https://theantarcticaproject.bandcamp.com/track/owari-feat-destinos",
+    bandcampUrl: "https://theantarcticaproject.bandcamp.com/album/owari",
     links: artistLinks,
   },
   {
