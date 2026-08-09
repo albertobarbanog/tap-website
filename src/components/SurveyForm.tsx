@@ -29,6 +29,12 @@ export default function SurveyForm() {
   const [platform, setPlatform] = useState("");
   const [wantsUpdates, setWantsUpdates] = useState("");
   const [soundElements, setSoundElements] = useState<string[]>([]);
+  const [stepError, setStepError] = useState(false);
+
+  // Steps 11 and 12 (open feedback + newsletter opt-in) are the
+  // explicitly optional block; every other step needs an answer
+  // before the visitor can move on.
+  const OPTIONAL_STEPS = [11, 12];
 
   function toggleSound(e: ChangeEvent<HTMLInputElement>) {
     const value = e.target.value;
@@ -88,7 +94,44 @@ export default function SurveyForm() {
     e.preventDefault();
   }
 
+  function isStepAnswered(): boolean {
+    if (OPTIONAL_STEPS.includes(step)) return true;
+    if (!formRef.current) return true;
+    const data = new FormData(formRef.current);
+    switch (step) {
+      case 0:
+        return String(data.get("city") ?? "").trim().length > 0;
+      case 1:
+        return !!data.get("era");
+      case 2:
+        return !!data.get("discovery");
+      case 3:
+        return !!data.get("favoriteRelease");
+      case 4:
+        return soundElements.length > 0;
+      case 5:
+        return !!data.get("platform");
+      case 6:
+        return !!data.get("attendedLive");
+      case 7:
+        return String(data.get("nextCity") ?? "").trim().length > 0;
+      case 8:
+        return String(data.get("setlistSong") ?? "").trim().length > 0;
+      case 9:
+        return data.getAll("merchInterest").length > 0;
+      case 10:
+        return !!data.get("designStyle");
+      default:
+        return true;
+    }
+  }
+
   function goNext() {
+    if (!isStepAnswered()) {
+      setStepError(true);
+      return;
+    }
+    setStepError(false);
     if (step >= TOTAL_STEPS - 1) {
       submitForm();
       return;
@@ -97,6 +140,7 @@ export default function SurveyForm() {
   }
 
   function goBack() {
+    setStepError(false);
     setStep((s) => Math.max(s - 1, 0));
   }
 
@@ -165,7 +209,12 @@ export default function SurveyForm() {
   const progressPct = Math.round(((step + 1) / TOTAL_STEPS) * 100);
 
   return (
-    <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col gap-8">
+    <form
+      ref={formRef}
+      onSubmit={handleSubmit}
+      onChange={() => setStepError(false)}
+      className="flex flex-col gap-8"
+    >
       <div>
         <div className="mb-2 flex items-center justify-between text-xs text-text-faint">
           <span className="tracking-wide-label text-accent">
@@ -353,6 +402,16 @@ export default function SurveyForm() {
           </Question>
         </Step>
       </div>
+
+      {stepError && (
+        <p className="flex items-center gap-2 text-sm text-accent">
+          <AlertCircle size={16} className="shrink-0" />
+          {tr(
+            "Responde esta pregunta antes de continuar.",
+            "Please answer this question before continuing.",
+          )}
+        </p>
+      )}
 
       {status === "error" && (
         <p className="flex items-start gap-2 text-sm text-text-muted">
