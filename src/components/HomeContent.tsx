@@ -241,16 +241,18 @@ export default function HomeContent({
             {t("home.playlistDesc")}
           </p>
 
-          <iframe
-            title="Spotify Playlist"
-            src={`https://open.spotify.com/embed/playlist/${spotifyPlaylistId}?utm_source=generator&theme=0`}
-            width="100%"
-            height="450"
-            frameBorder="0"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy"
-            className="w-full"
-          />
+          <div className="overflow-hidden rounded-xl bg-black">
+            <iframe
+              title="Spotify Playlist"
+              src={`https://open.spotify.com/embed/playlist/${spotifyPlaylistId}?utm_source=generator&theme=0`}
+              width="100%"
+              height="450"
+              style={{ border: "none", backgroundColor: "#000000" }}
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+              className="block w-full"
+            />
+          </div>
         </div>
       </section>
 
