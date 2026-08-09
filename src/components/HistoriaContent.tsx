@@ -9,7 +9,7 @@ export default function HistoriaContent() {
   return (
     <article className="mx-auto max-w-3xl px-6 py-20 sm:py-28">
       <header className="text-center">
-        <span className="text-xs tracking-wider-label text-text-faint">
+        <span className="text-xs tracking-wider-label text-text-muted">
           {t("historia.eyebrow")}
         </span>
         <h1 className="font-display mt-4 text-4xl tracking-wide-label text-text sm:text-5xl">

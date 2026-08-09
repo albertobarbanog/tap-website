@@ -21,7 +21,7 @@ export default function DiscografiaContent({
   return (
     <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
       <header className="mb-16 text-center">
-        <span className="text-xs tracking-wider-label text-text-faint">
+        <span className="text-xs tracking-wider-label text-text-muted">
           {t("discografia.eyebrow")}
         </span>
         <h1 className="font-display mt-4 text-4xl tracking-wide-label text-text sm:text-5xl">
@@ -36,7 +36,7 @@ export default function DiscografiaContent({
           return (
             <section key={type}>
               <div className="mb-10 flex items-center gap-4">
-                <span className="text-xs tracking-wider-label text-text-faint">
+                <span className="text-xs tracking-wider-label text-text-muted">
                   {t(labelKey)}
                 </span>
                 <div className="h-px flex-1 bg-line" />
