@@ -8,6 +8,7 @@ import {
   CalendarDays,
   ChevronDown,
   Disc3,
+  Download,
   Play,
   ShoppingBag,
   Users,
@@ -24,6 +25,7 @@ import {
   latestVideoUrl,
   youtubeUrl,
   spotifyPlaylistId,
+  epkUrl,
 } from "@/lib/data";
 
 export default function HomeContent({
@@ -257,6 +259,41 @@ export default function HomeContent({
       </section>
 
       <section className="border-t border-line bg-bg">
+        <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+          <div className="mb-12 flex items-center gap-4">
+            <span className="text-xs tracking-wider-label text-text-faint">
+              {t("home.press")}
+            </span>
+            <div className="h-px flex-1 bg-line" />
+          </div>
+
+          <a
+            href={epkUrl}
+            download
+            className="group flex flex-col items-start justify-between gap-8 border border-line bg-bg-elevated p-10 transition-colors hover:border-accent sm:flex-row sm:items-center"
+          >
+            <div className="flex items-center gap-5">
+              <Download
+                size={30}
+                className="text-text-muted transition-colors group-hover:text-accent"
+              />
+              <div>
+                <span className="font-display block text-xl tracking-wide-label text-text">
+                  EPK
+                </span>
+                <span className="mt-1 block max-w-md text-sm text-text-muted">
+                  {t("home.pressDesc")}
+                </span>
+              </div>
+            </div>
+            <span className="flex shrink-0 items-center gap-2 text-xs tracking-wide-label text-accent">
+              {t("home.pressCta")} <ArrowRight size={14} />
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section className="border-t border-line bg-bg-elevated">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <div className="mb-12 flex items-center gap-4">
             <span className="text-xs tracking-wider-label text-text-faint">

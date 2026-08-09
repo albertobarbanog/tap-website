@@ -56,6 +56,12 @@ export const dict = {
     es: "Nuestra playlist en Spotify.",
     en: "Our playlist on Spotify.",
   },
+  "home.press": { es: "Prensa", en: "Press" },
+  "home.pressDesc": {
+    es: "Biografía, fotos oficiales y material gráfico en un solo archivo, listo para medios y programadores.",
+    en: "Biography, official photos, and press assets in a single file, ready for media and promoters.",
+  },
+  "home.pressCta": { es: "Descargar EPK (PDF)", en: "Download EPK (PDF)" },
   "lightbox.close": { es: "Cerrar", en: "Close" },
   "lightbox.prev": { es: "Foto anterior", en: "Previous photo" },
   "lightbox.next": { es: "Foto siguiente", en: "Next photo" },
