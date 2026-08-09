@@ -47,6 +47,7 @@ export const youtubeUrl = "https://www.youtube.com/@TheAntarcticaProject";
 export const spotifyPlaylistId = "2p0tg4Xiq6Orf53Hs1EAvy";
 export const youtubePlaylistId = "PLEgm5x69ka_xD3yw8Ke-w35psc75rwKQh";
 export const epkUrl = "/press/the-antarctica-project-epk.pdf";
+export const paypalUrl = "https://paypal.me/theantarcticaproject";
 
 export const streamingLinks: PlatformLink[] = [
   {

@@ -67,6 +67,12 @@ export const dict = {
     es: "Cinco minutos, un montón de ayuda: cuéntanos cómo nos escuchas y qué te gustaría ver de nosotros.",
     en: "Five minutes, a big help: tell us how you listen to us and what you'd like to see from us.",
   },
+  "home.support": { es: "Apoya el Proyecto", en: "Support the Project" },
+  "home.supportDesc": {
+    es: "Si disfrutas de nuestra música y quieres apoyar de forma independiente la producción de nuevos lanzamientos y giras, puedes hacer una aportación directa aquí.",
+    en: "If you enjoy our music and want to independently support the production of new releases and tours, you can make a direct contribution here.",
+  },
+  "home.supportCta": { es: "Apoyar en PayPal", en: "Support on PayPal" },
   "lightbox.close": { es: "Cerrar", en: "Close" },
   "lightbox.prev": { es: "Foto anterior", en: "Previous photo" },
   "lightbox.next": { es: "Foto siguiente", en: "Next photo" },

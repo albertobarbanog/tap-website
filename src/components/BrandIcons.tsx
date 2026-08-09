@@ -142,6 +142,21 @@ export function BandcampIcon({ size = 18, className }: IconProps) {
   );
 }
 
+export function PayPalIcon({ size = 18, className }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      aria-hidden="true"
+    >
+      <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.287-.023.143-.047.288-.077.437-.983 5.05-4.349 6.797-8.647 6.797h-2.19c-.524 0-.968.382-1.05.9l-1.12 7.106zm14.146-14.42a3.35 3.35 0 0 0-.607-.541c-.013.076-.026.153-.041.234-.585 3.006-2.31 5.72-6.988 5.72h-1.789c-.436 0-.813.318-.874.75l-.945 5.99-.267 1.69a.556.556 0 0 0 .55.643h3.966c.454 0 .84-.33.912-.777l.038-.194.72-4.573.046-.25c.07-.448.457-.778.911-.778h.573c3.703 0 6.6-1.505 7.45-5.856.352-1.813.17-3.328-.76-4.394a3.606 3.606 0 0 0-.895-.664z" />
+    </svg>
+  );
+}
+
 export const platformIconMap = {
   spotify: SpotifyIcon,
   appleMusic: AppleMusicIcon,
