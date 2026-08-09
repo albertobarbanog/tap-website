@@ -51,6 +51,11 @@ export const dict = {
     es: "Ver canal de YouTube",
     en: "Visit YouTube channel",
   },
+  "home.playlist": { es: "Playlist", en: "Playlist" },
+  "home.playlistDesc": {
+    es: "Nuestra playlist en Spotify.",
+    en: "Our playlist on Spotify.",
+  },
   "lightbox.close": { es: "Cerrar", en: "Close" },
   "lightbox.prev": { es: "Foto anterior", en: "Previous photo" },
   "lightbox.next": { es: "Foto siguiente", en: "Next photo" },

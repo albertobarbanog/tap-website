@@ -44,6 +44,7 @@ export type PlatformLink = {
 
 export const bandcampUrl = "https://theantarcticaproject.bandcamp.com/";
 export const youtubeUrl = "https://www.youtube.com/@TheAntarcticaProject";
+export const spotifyPlaylistId = "2p0tg4Xiq6Orf53Hs1EAvy";
 
 export const streamingLinks: PlatformLink[] = [
   {

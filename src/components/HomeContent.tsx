@@ -19,7 +19,12 @@ import { YoutubeIcon } from "@/components/BrandIcons";
 import { useLanguage } from "@/context/LanguageContext";
 import type { DictKey } from "@/lib/i18n";
 import type { Release, Concert } from "@/lib/data";
-import { merchUrl, latestVideoUrl, youtubeUrl } from "@/lib/data";
+import {
+  merchUrl,
+  latestVideoUrl,
+  youtubeUrl,
+  spotifyPlaylistId,
+} from "@/lib/data";
 
 export default function HomeContent({
   latest,
@@ -224,6 +229,32 @@ export default function HomeContent({
       </section>
 
       <section className="border-t border-line bg-bg-elevated">
+        <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+          <div className="mb-12 flex items-center gap-4">
+            <span className="text-xs tracking-wider-label text-text-faint">
+              {t("home.playlist")}
+            </span>
+            <div className="h-px flex-1 bg-line" />
+          </div>
+
+          <p className="mb-6 text-sm text-text-muted">
+            {t("home.playlistDesc")}
+          </p>
+
+          <iframe
+            title="Spotify Playlist"
+            src={`https://open.spotify.com/embed/playlist/${spotifyPlaylistId}?utm_source=generator&theme=0`}
+            width="100%"
+            height="450"
+            frameBorder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            className="w-full"
+          />
+        </div>
+      </section>
+
+      <section className="border-t border-line bg-bg">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <div className="mb-12 flex items-center gap-4">
             <span className="text-xs tracking-wider-label text-text-faint">
