@@ -327,6 +327,7 @@ export type Member = {
   name: string;
   role: string;
   photo: string;
+  instagram: string;
 };
 
 export const members: Member[] = [
@@ -335,30 +336,35 @@ export const members: Member[] = [
     name: "João Riveros",
     role: "Voz",
     photo: "/images/members/member-3.jpg",
+    instagram: "https://www.instagram.com/joaoriverosr/",
   },
   {
     id: "alberto-barbano",
     name: "Alberto Barbano",
     role: "Guitarra",
     photo: "/images/members/member-1.jpg",
+    instagram: "https://www.instagram.com/albertobarbano/",
   },
   {
     id: "felipe-cuevas",
     name: "Felipe Cuevas",
     role: "Guitarra",
     photo: "/images/members/member-2.jpg",
+    instagram: "https://www.instagram.com/destinos1990/",
   },
   {
     id: "gustavo-plaza",
     name: "Gustavo Plaza",
     role: "Bajo",
     photo: "/images/members/member-5.jpg",
+    instagram: "https://www.instagram.com/gustavoplazam/",
   },
   {
     id: "andres-olivares",
     name: "Andrés Olivares",
     role: "Batería",
     photo: "/images/members/member-4.jpg",
+    instagram: "https://www.instagram.com/ndrms_/",
   },
 ];
 
