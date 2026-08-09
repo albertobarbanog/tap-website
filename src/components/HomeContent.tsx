@@ -26,6 +26,7 @@ import {
   latestVideoUrl,
   youtubeUrl,
   spotifyPlaylistId,
+  youtubePlaylistId,
   epkUrl,
 } from "@/lib/data";
 
@@ -228,6 +229,20 @@ export default function HomeContent({
               {t("home.videosCta")} <ArrowRight size={14} />
             </span>
           </a>
+
+          <div className="mt-6 aspect-video w-full overflow-hidden rounded-xl bg-black">
+            <iframe
+              title="YouTube Playlist"
+              src={`https://www.youtube.com/embed/videoseries?list=${youtubePlaylistId}`}
+              width="100%"
+              height="100%"
+              style={{ border: "none" }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              loading="lazy"
+              className="block w-full"
+            />
+          </div>
         </div>
       </section>
 
