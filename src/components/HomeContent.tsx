@@ -52,7 +52,7 @@ export default function HomeContent({
           fill
           priority
           sizes="100vw"
-          className="object-cover opacity-70 grayscale"
+          className="object-cover object-[44%_center] opacity-70 grayscale md:object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-black/10" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/40" />
