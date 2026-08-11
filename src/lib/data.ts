@@ -377,6 +377,10 @@ export const members: Member[] = [
     role: "Bajo",
     photo: "/images/members/member-5.jpg",
     instagram: "https://www.instagram.com/gustavoplazam/",
+    bio: {
+      es: "Nacido y criado en Culiprán, Gustavo desarrolló una gran afinidad por la música desde muy pequeño mientras veía a su madre cuidar los animales de la granja. Se especializó en rancheras a temprana edad y se hizo conocido en la escena local bajo el apodo de \"El Halcón de Culiprán\". Sin embargo, durante un viaje a la ciudad presenció a un grupo de jóvenes haciendo mosh, lo que despertó su atención hacia el metalcore y sus derivados.",
+      en: "Born and raised in Culiprán, Gustavo developed a deep affinity for music from a very young age while watching his mother tend to the farm animals. He specialized in rancheras early on and became known in the local scene under the nickname \"El Halcón de Culiprán\" (The Culiprán Falcon). During a trip to the city, however, he witnessed a group of young people moshing, which sparked his interest in metalcore and its subgenres.",
+    },
   },
   {
     id: "andres-olivares",
