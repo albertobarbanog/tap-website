@@ -342,6 +342,7 @@ export type Member = {
   role: string;
   photo: string;
   instagram: string;
+  bio?: { es: string; en: string };
 };
 
 export const members: Member[] = [
@@ -351,6 +352,10 @@ export const members: Member[] = [
     role: "Voz",
     photo: "/images/members/member-3.jpg",
     instagram: "https://www.instagram.com/joaoriverosr/",
+    bio: {
+      es: "João nació y se crió en Brasil. Desde los seis años estudió canto, especializándose en funk y bossa nova, y aprendió a bailar y a jugar fútbol viendo a sus padres en el Maracaná. Más adelante, decidió adentrarse en el metalcore tras ver a su jugador favorito del Flamengo disfrutar de unos buenos breakdowns.",
+      en: "João was born and raised in Brazil. He started studying singing at age six, specializing in funk and bossa nova, and learned to dance and play football watching his parents at the Maracanã. Later on, he decided to get into metalcore after watching his favorite Flamengo player enjoy some good breakdowns.",
+    },
   },
   {
     id: "alberto-barbano",
