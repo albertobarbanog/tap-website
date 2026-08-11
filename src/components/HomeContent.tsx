@@ -47,12 +47,20 @@ export default function HomeContent({
     <div>
       <section className="relative -mt-px flex h-[calc(100vh-61px)] min-h-[560px] w-full items-end overflow-hidden bg-black md:h-[calc(100vh-110px)]">
         <Image
+          src="/images/hero-band-mobile.jpg"
+          alt="The Antarctica Project"
+          fill
+          priority
+          sizes="100vw"
+          className="block object-cover opacity-70 grayscale md:hidden"
+        />
+        <Image
           src="/images/hero-band.jpg"
           alt="The Antarctica Project"
           fill
           priority
           sizes="100vw"
-          className="object-cover object-[44%_center] opacity-70 grayscale md:object-center"
+          className="hidden object-cover object-center opacity-70 grayscale md:block"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-black/10" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/40" />
