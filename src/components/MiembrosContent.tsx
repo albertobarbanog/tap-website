@@ -35,7 +35,7 @@ export default function MiembrosContent({ members }: { members: Member[] }) {
                 alt={m.name}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover grayscale transition-all duration-700 ease-out group-hover:grayscale-0 group-hover:scale-[1.03]"
+                className="object-cover transition-all duration-700 ease-out md:grayscale md:group-hover:grayscale-0 group-hover:scale-[1.03]"
               />
               <div className="pointer-events-none absolute inset-0 bg-accent mix-blend-color opacity-0 transition-opacity duration-700 group-hover:opacity-20" />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
