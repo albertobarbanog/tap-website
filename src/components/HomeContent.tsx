@@ -337,6 +337,31 @@ export default function HomeContent({
       </section>
 
       <section className="border-t border-line bg-bg">
+        <div className="mx-auto max-w-3xl px-6 py-20 sm:py-28">
+          <div className="mb-12 flex items-center gap-4">
+            <span className="text-sm tracking-wider-label text-text-muted">
+              {t("home.support")}
+            </span>
+            <div className="h-px flex-1 bg-line" />
+          </div>
+
+          <p className="mb-10 max-w-lg text-sm text-text-muted">
+            {t("home.supportDesc")}
+          </p>
+
+          <a
+            href={paypalUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex w-fit items-center gap-2 border border-text px-7 py-3 text-xs tracking-wide-label text-text transition-colors hover:border-accent hover:text-accent"
+          >
+            <PayPalIcon size={16} />
+            {t("home.supportCta")}
+          </a>
+        </div>
+      </section>
+
+      <section className="border-t border-line bg-bg-elevated">
         <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
           <div className="mb-12 flex items-center gap-4">
             <span className="text-sm tracking-wider-label text-text-muted">
@@ -372,31 +397,6 @@ export default function HomeContent({
               desc={t("home.qlBandDesc")}
             />
           </div>
-        </div>
-      </section>
-
-      <section className="border-t border-line bg-bg-elevated">
-        <div className="mx-auto max-w-3xl px-6 py-20 sm:py-28">
-          <div className="mb-12 flex items-center gap-4">
-            <span className="text-sm tracking-wider-label text-text-muted">
-              {t("home.support")}
-            </span>
-            <div className="h-px flex-1 bg-line" />
-          </div>
-
-          <p className="mb-10 max-w-lg text-sm text-text-muted">
-            {t("home.supportDesc")}
-          </p>
-
-          <a
-            href={paypalUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex w-fit items-center gap-2 border border-text px-7 py-3 text-xs tracking-wide-label text-text transition-colors hover:border-accent hover:text-accent"
-          >
-            <PayPalIcon size={16} />
-            {t("home.supportCta")}
-          </a>
         </div>
       </section>
     </div>
