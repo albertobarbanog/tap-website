@@ -7,7 +7,7 @@ import type { DictKey } from "@/lib/i18n";
 import type { Member } from "@/lib/data";
 
 export default function MiembrosContent({ members }: { members: Member[] }) {
-  const { t, lang } = useLanguage();
+  const { t } = useLanguage();
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
@@ -53,11 +53,6 @@ export default function MiembrosContent({ members }: { members: Member[] }) {
               <span className="font-mono text-xs tracking-wide-label text-accent">
                 {t(`role.${m.role}` as DictKey).toUpperCase()}
               </span>
-              {m.bio && (
-                <p className="mt-3 text-sm leading-relaxed text-text-muted">
-                  {m.bio[lang]}
-                </p>
-              )}
             </div>
           </article>
         ))}

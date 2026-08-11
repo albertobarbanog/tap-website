@@ -342,7 +342,6 @@ export type Member = {
   role: string;
   photo: string;
   instagram: string;
-  bio?: { es: string; en: string };
 };
 
 export const members: Member[] = [
@@ -352,10 +351,6 @@ export const members: Member[] = [
     role: "Voz",
     photo: "/images/members/member-3.jpg",
     instagram: "https://www.instagram.com/joaoriverosr/",
-    bio: {
-      es: "João nació y se crió en Brasil. Desde los seis años estudió canto, especializándose en funk y bossa nova, y aprendió a bailar y a jugar fútbol viendo a sus padres en el Maracaná. Más adelante, decidió adentrarse en el metalcore tras ver a su jugador favorito del Flamengo disfrutar de unos buenos breakdowns.",
-      en: "João was born and raised in Brazil. He started studying singing at age six, specializing in funk and bossa nova, and learned to dance and play football watching his parents at the Maracanã. Later on, he decided to get into metalcore after watching his favorite Flamengo player enjoy some good breakdowns.",
-    },
   },
   {
     id: "alberto-barbano",
@@ -377,10 +372,6 @@ export const members: Member[] = [
     role: "Bajo",
     photo: "/images/members/member-5.jpg",
     instagram: "https://www.instagram.com/gustavoplazam/",
-    bio: {
-      es: "Nacido y criado en Culiprán, Gustavo desarrolló una gran afinidad por la música desde muy pequeño mientras veía a su madre cuidar los animales de la granja. Se especializó en rancheras a temprana edad y se hizo conocido en la escena local bajo el apodo de \"El Halcón de Culiprán\". Sin embargo, durante un viaje a la ciudad presenció a un grupo de jóvenes haciendo mosh, lo que despertó su atención hacia el metalcore y sus derivados.",
-      en: "Born and raised in Culiprán, Gustavo developed a deep affinity for music from a very young age while watching his mother tend to the farm animals. He specialized in rancheras early on and became known in the local scene under the nickname \"El Halcón de Culiprán\" (The Culiprán Falcon). During a trip to the city, however, he witnessed a group of young people moshing, which sparked his interest in metalcore and its subgenres.",
-    },
   },
   {
     id: "andres-olivares",
