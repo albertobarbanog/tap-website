@@ -9,10 +9,12 @@ function Slides({
   photos,
   index,
   visibilityClass,
+  objectPositionClass,
 }: {
   photos: string[];
   index: number;
   visibilityClass: string;
+  objectPositionClass: string;
 }) {
   return (
     <div className={`absolute inset-0 ${visibilityClass}`}>
@@ -24,7 +26,7 @@ function Slides({
           fill
           priority={i === 0}
           sizes="100vw"
-          className={`object-cover object-center grayscale transition-opacity duration-1000 ease-in-out ${
+          className={`object-cover ${objectPositionClass} grayscale transition-opacity duration-1000 ease-in-out ${
             i === index ? "opacity-70" : "opacity-0"
           }`}
         />
@@ -65,11 +67,13 @@ export default function HeroCarousel({
         photos={mobilePhotos}
         index={mobileIndex}
         visibilityClass="block md:hidden"
+        objectPositionClass="object-center"
       />
       <Slides
         photos={desktopPhotos}
         index={desktopIndex}
         visibilityClass="hidden md:block"
+        objectPositionClass="object-top"
       />
     </>
   );
