@@ -59,20 +59,20 @@ export default function HomeContent({
             "/images/hero-band-mobile-3.jpg",
           ]}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-black/10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/40" />
 
         <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center px-6 pb-16 text-center sm:pb-24">
-          <span className="font-mono text-[11px] tracking-wider-label text-accent">
+          <span className="font-mono text-[11px] tracking-wider-label text-accent [text-shadow:0_1px_6px_rgb(0_0_0_/_70%)]">
             {t("home.eyebrow")}
           </span>
-          <h1 className="font-display mt-5 text-balance text-4xl leading-[1.05] tracking-wide-label text-text sm:text-6xl md:text-7xl">
+          <h1 className="font-display mt-5 text-balance text-4xl leading-[1.05] tracking-wide-label text-text [text-shadow:0_2px_12px_rgb(0_0_0_/_75%)] sm:text-6xl md:text-7xl">
             THE ANTARCTICA
             <br />
             PROJECT
           </h1>
           <div className="mt-6 h-px w-16 bg-accent-dim" />
-          <p className="mt-6 max-w-md text-balance text-sm leading-relaxed text-text-muted sm:text-base">
+          <p className="mt-6 max-w-md text-balance text-sm leading-relaxed text-text-muted [text-shadow:0_1px_8px_rgb(0_0_0_/_70%)] sm:text-base">
             {t("home.tagline")}
           </p>
 
