@@ -16,6 +16,7 @@ import {
 import AlbumCover from "@/components/AlbumCover";
 import NextShow from "@/components/NextShow";
 import FotoCarousel from "@/components/FotoCarousel";
+import HeroCarousel from "@/components/HeroCarousel";
 import SurveyForm from "@/components/SurveyForm";
 import { YoutubeIcon, PayPalIcon } from "@/components/BrandIcons";
 import { useLanguage } from "@/context/LanguageContext";
@@ -46,21 +47,17 @@ export default function HomeContent({
   return (
     <div>
       <section className="relative -mt-px flex h-[calc(100vh-61px)] min-h-[560px] w-full items-end overflow-hidden bg-black md:h-[calc(100vh-110px)]">
-        <Image
-          src="/images/hero-band-mobile.jpg"
-          alt="The Antarctica Project"
-          fill
-          priority
-          sizes="100vw"
-          className="block object-cover opacity-70 grayscale md:hidden"
-        />
-        <Image
-          src="/images/hero-band.jpg"
-          alt="The Antarctica Project"
-          fill
-          priority
-          sizes="100vw"
-          className="hidden object-cover object-center opacity-70 grayscale md:block"
+        <HeroCarousel
+          desktopPhotos={[
+            "/images/hero-band.jpg",
+            "/images/hero-band-2.jpg",
+            "/images/hero-band-3.jpg",
+          ]}
+          mobilePhotos={[
+            "/images/hero-band-mobile.jpg",
+            "/images/hero-band-mobile-2.jpg",
+            "/images/hero-band-mobile-3.jpg",
+          ]}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-black/10" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/40" />
