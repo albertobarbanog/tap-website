@@ -7,15 +7,13 @@ export default function Home() {
     b.releaseDate.localeCompare(a.releaseDate),
   )[0];
   const nextShow = concerts[0];
-  const bandaPhotosDesktop = getBandaPhotos("desktop");
-  const bandaPhotosMobile = getBandaPhotos("mobile");
+  const bandaPhotos = getBandaPhotos();
 
   return (
     <HomeContent
       latest={latest}
       nextShow={nextShow}
-      bandaPhotosDesktop={bandaPhotosDesktop}
-      bandaPhotosMobile={bandaPhotosMobile}
+      bandaPhotos={bandaPhotos}
     />
   );
 }
