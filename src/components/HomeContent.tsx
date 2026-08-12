@@ -35,11 +35,13 @@ import {
 export default function HomeContent({
   latest,
   nextShow,
-  bandaPhotos,
+  bandaPhotosDesktop,
+  bandaPhotosMobile,
 }: {
   latest: Release;
   nextShow: Concert | undefined;
-  bandaPhotos: string[];
+  bandaPhotosDesktop: string[];
+  bandaPhotosMobile: string[];
 }) {
   const { t, lang } = useLanguage();
 
@@ -191,7 +193,7 @@ export default function HomeContent({
         </div>
       </section>
 
-      {bandaPhotos.length > 0 && (
+      {(bandaPhotosDesktop.length > 0 || bandaPhotosMobile.length > 0) && (
         <section className="border-t border-line bg-bg-elevated">
           <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
             <div className="mb-12 flex items-center gap-4">
@@ -201,7 +203,16 @@ export default function HomeContent({
               <div className="h-px flex-1 bg-line" />
             </div>
 
-            <FotoCarousel photos={bandaPhotos} />
+            {bandaPhotosMobile.length > 0 && (
+              <div className="block md:hidden">
+                <FotoCarousel photos={bandaPhotosMobile} />
+              </div>
+            )}
+            {bandaPhotosDesktop.length > 0 && (
+              <div className="hidden md:block">
+                <FotoCarousel photos={bandaPhotosDesktop} />
+              </div>
+            )}
           </div>
         </section>
       )}
