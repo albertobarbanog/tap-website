@@ -1,6 +1,6 @@
 "use client";
 
-import { MapPin, Ticket } from "lucide-react";
+import { Clock, MapPin, Ticket } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import type { Concert } from "@/lib/data";
 
@@ -35,6 +35,12 @@ export default function NextShow({ concert }: { concert: Concert }) {
         </div>
 
         <div className="flex flex-col justify-center gap-6 px-8 py-10">
+          {concert.title && (
+            <span className="font-display text-xl font-semibold tracking-wide-label text-text sm:text-2xl">
+              {concert.title}
+            </span>
+          )}
+
           {concert.lineup && (
             <div className="flex flex-col gap-1.5">
               {concert.lineup.map((act) => {
@@ -43,7 +49,7 @@ export default function NextShow({ concert }: { concert: Concert }) {
                   <span
                     key={act}
                     className={
-                      isBand
+                      isBand && !concert.title
                         ? "font-display text-xl font-semibold tracking-wide-label text-text sm:text-2xl"
                         : "text-sm text-text-muted"
                     }
@@ -55,10 +61,18 @@ export default function NextShow({ concert }: { concert: Concert }) {
             </div>
           )}
 
-          <span className="flex items-center gap-2 text-sm text-text-muted">
-            <MapPin size={14} className="text-text-faint" />
-            {concert.venue}, {concert.city}
-          </span>
+          <div className="flex flex-col gap-1.5">
+            <span className="flex items-center gap-2 text-sm text-text-muted">
+              <MapPin size={14} className="text-text-faint" />
+              {concert.venue}, {concert.city}
+            </span>
+            {concert.time && (
+              <span className="flex items-center gap-2 text-sm text-text-muted">
+                <Clock size={14} className="text-text-faint" />
+                {concert.time} hrs
+              </span>
+            )}
+          </div>
 
           {concert.ticketUrl && (
             <a

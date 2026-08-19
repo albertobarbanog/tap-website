@@ -3,6 +3,8 @@ export type TicketStatus = "disponible" | "pocas" | "agotado";
 export type Concert = {
   id: string;
   date: string; // ISO
+  time?: string; // HH:mm
+  title?: string;
   city: string;
   country: string;
   venue: string;
@@ -15,6 +17,7 @@ export const concerts: Concert[] = [
   {
     id: "club-ambar-2026-08-28",
     date: "2026-08-28",
+    time: "20:00",
     city: "Santiago",
     country: "Chile",
     venue: "Club Ámbar",
@@ -22,6 +25,18 @@ export const concerts: Concert[] = [
     status: "disponible",
     ticketUrl:
       "https://www.ecopass.cl/events/without-the-sun,-the-antarctica-project-y-minerva----28-agosto---club-ambar/18585",
+  },
+  {
+    id: "sala-rbx-2027-01-16",
+    date: "2027-01-16",
+    time: "19:30",
+    title: "Hvnvbi (+18)",
+    city: "Santiago",
+    country: "Chile",
+    venue: "Sala RBX",
+    lineup: ["The Antarctica Project"],
+    status: "disponible",
+    ticketUrl: "https://www.passline.com/eventos/hvnvbi",
   },
 ];
 
