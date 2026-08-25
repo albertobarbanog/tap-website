@@ -53,9 +53,9 @@ export default function Header() {
             <Image
               src="/images/logo-mark.png"
               alt=""
-              width={33}
-              height={37}
-              className="h-7 w-auto shrink-0 opacity-90 sm:h-8"
+              width={337}
+              height={585}
+              className="h-8 w-auto shrink-0 opacity-90 sm:h-9"
               priority
             />
             <span className="font-display whitespace-nowrap text-[10px] tracking-wide-label text-text sm:text-lg sm:tracking-wider-label">
