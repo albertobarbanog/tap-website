@@ -22,7 +22,13 @@ export default function NextShow({ concert }: { concert: Concert }) {
 
   return (
     <div className="border border-line bg-bg-elevated">
-      <div className="grid grid-cols-1 sm:grid-cols-[160px_1fr]">
+      <div
+        className={`grid grid-cols-1 ${
+          concert.image
+            ? "sm:grid-cols-[160px_1fr_200px]"
+            : "sm:grid-cols-[160px_1fr]"
+        }`}
+      >
         <div className="flex flex-row items-center justify-center gap-2 border-b border-line px-6 py-8 sm:flex-col sm:gap-1 sm:border-b-0 sm:border-r sm:py-10">
           <span className="font-display text-4xl font-semibold text-text sm:text-5xl">
             {day}
@@ -40,6 +46,12 @@ export default function NextShow({ concert }: { concert: Concert }) {
             <span className="font-display text-xl font-semibold tracking-wide-label text-text sm:text-2xl">
               {concert.title}
             </span>
+          )}
+
+          {concert.description && (
+            <p className="text-sm leading-relaxed text-text-muted">
+              {concert.description}
+            </p>
           )}
 
           {concert.lineup && (
@@ -86,17 +98,25 @@ export default function NextShow({ concert }: { concert: Concert }) {
             </a>
           )}
         </div>
-      </div>
 
-      {concert.image && (
-        <Image
-          src={concert.image}
-          alt={concert.title ?? concert.venue}
-          width={1000}
-          height={1250}
-          className="h-auto w-full border-t border-line"
-        />
-      )}
+        {concert.image && (
+          <a
+            href={concert.image}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-auto mb-8 block w-44 shrink-0 self-center overflow-hidden border border-line transition-colors hover:border-accent sm:m-0 sm:mr-8 sm:w-auto"
+          >
+            <Image
+              src={concert.image}
+              alt={concert.title ?? concert.venue}
+              width={1000}
+              height={1250}
+              sizes="200px"
+              className="h-auto w-full"
+            />
+          </a>
+        )}
+      </div>
     </div>
   );
 }

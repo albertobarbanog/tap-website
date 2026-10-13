@@ -5,6 +5,7 @@ export type Concert = {
   date: string; // ISO
   time?: string; // HH:mm
   title?: string;
+  description?: string;
   city: string;
   country: string;
   venue: string;
@@ -19,25 +20,28 @@ export const concerts: Concert[] = [
     id: "bandera-1001-2026-12-18",
     date: "2026-12-18",
     time: "17:00",
-    title: "Concecore presenta: The Antártica Project",
+    title: "The Antártica Project en Concepción",
     city: "Concepción",
     country: "Chile",
     venue: "Bandera 1001",
-    lineup: ["The Antarctica Project", "Luxvanta", "Unstable"],
+    description:
+      "Conce Core y Bandera 1001 presentan por primera vez en Concepción a The Antártica Project este 18 de Diciembre junto a los invitados locales: Sheut, Luxvanta y Unstable.",
     status: "disponible",
+    ticketUrl: "https://portaldisc.com/evento/concecoreantarticabandera1001",
     image: "/images/shows/concecore-concepcion-2026-12-18.jpg",
   },
   {
     id: "sala-rbx-2027-01-16",
     date: "2027-01-16",
     time: "19:30",
-    title: "Hvnvbi (+18)",
+    title: "Hvnvbi + The Antarctica Project (+18)",
     city: "Santiago",
     country: "Chile",
     venue: "Sala RBX",
-    lineup: ["The Antarctica Project"],
+    description: "HVNVBI + THE ANTARCTICA PROJECT en Sala RBX.",
     status: "disponible",
     ticketUrl: "https://www.passline.com/eventos/hvnvbi",
+    image: "/images/shows/hvnvbi-rbx-2027-01-16.jpg",
   },
 ];
 
