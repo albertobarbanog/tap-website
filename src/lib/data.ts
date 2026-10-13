@@ -11,20 +11,21 @@ export type Concert = {
   lineup?: string[];
   status: TicketStatus;
   ticketUrl?: string;
+  image?: string;
 };
 
 export const concerts: Concert[] = [
   {
-    id: "club-ambar-2026-08-28",
-    date: "2026-08-28",
-    time: "20:00",
-    city: "Santiago",
+    id: "bandera-1001-2026-12-18",
+    date: "2026-12-18",
+    time: "17:00",
+    title: "Concecore presenta: The Antártica Project",
+    city: "Concepción",
     country: "Chile",
-    venue: "Club Ámbar",
-    lineup: ["Without the Sun", "The Antarctica Project", "Minerva"],
+    venue: "Bandera 1001",
+    lineup: ["The Antarctica Project", "Luxvanta", "Unstable"],
     status: "disponible",
-    ticketUrl:
-      "https://www.ecopass.cl/events/without-the-sun,-the-antarctica-project-y-minerva----28-agosto---club-ambar/18585",
+    image: "/images/shows/concecore-concepcion-2026-12-18.jpg",
   },
   {
     id: "sala-rbx-2027-01-16",

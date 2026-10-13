@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Clock, MapPin, Ticket } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import type { Concert } from "@/lib/data";
@@ -86,6 +87,16 @@ export default function NextShow({ concert }: { concert: Concert }) {
           )}
         </div>
       </div>
+
+      {concert.image && (
+        <Image
+          src={concert.image}
+          alt={concert.title ?? concert.venue}
+          width={1000}
+          height={1250}
+          className="h-auto w-full border-t border-line"
+        />
+      )}
     </div>
   );
 }
