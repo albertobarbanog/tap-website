@@ -6,7 +6,6 @@ import { useLanguage } from "@/context/LanguageContext";
 import {
   socialLinks,
   streamingLinks,
-  merchUrl,
   bookingEmail,
 } from "@/lib/data";
 
@@ -92,16 +91,6 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <a
-                  href={merchUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition-colors hover:text-accent"
-                >
-                  {t("nav.merch")}
-                </a>
-              </li>
             </ul>
           </div>
 

@@ -8,7 +8,7 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import { platformIconMap } from "@/components/BrandIcons";
 import LanguageToggle from "@/components/LanguageToggle";
 import { useLanguage } from "@/context/LanguageContext";
-import { merchUrl, platformLinks } from "@/lib/data";
+import { platformLinks } from "@/lib/data";
 
 export default function Header() {
   const pathname = usePathname();
@@ -84,14 +84,6 @@ export default function Header() {
           <NavLink href="/conciertos" current={pathname === "/conciertos"}>
             {t("nav.shows")}
           </NavLink>
-          <a
-            href={merchUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-accent"
-          >
-            {t("nav.merch")}
-          </a>
           <NavLink href="/discografia" current={pathname === "/discografia"}>
             {t("nav.discography")}
           </NavLink>
@@ -172,14 +164,6 @@ export default function Header() {
             >
               {t("nav.shows")}
             </MobileLink>
-            <a
-              href={merchUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-b border-line/60 py-3.5"
-            >
-              {t("nav.merch")}
-            </a>
             <MobileLink
               href="/discografia"
               current={pathname === "/discografia"}

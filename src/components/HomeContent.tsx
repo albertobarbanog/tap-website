@@ -10,7 +10,6 @@ import {
   Disc3,
   Download,
   Play,
-  ShoppingBag,
   Users,
 } from "lucide-react";
 import AlbumCover from "@/components/AlbumCover";
@@ -24,7 +23,6 @@ import type { DictKey } from "@/lib/i18n";
 import { formatReleaseDate } from "@/lib/formatDate";
 import type { Release, Concert } from "@/lib/data";
 import {
-  merchUrl,
   latestVideoUrl,
   youtubeUrl,
   spotifyPlaylistId,
@@ -367,7 +365,7 @@ export default function HomeContent({
             <div className="h-px flex-1 bg-line" />
           </div>
 
-          <div className="grid grid-cols-1 gap-px overflow-hidden border border-line bg-line sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-px overflow-hidden border border-line bg-line sm:grid-cols-3">
             <QuickLink
               href="/conciertos"
               icon={<CalendarDays size={22} />}
@@ -379,13 +377,6 @@ export default function HomeContent({
               icon={<Disc3 size={22} />}
               label={t("home.qlDiscography")}
               desc={t("home.qlDiscographyDesc")}
-            />
-            <QuickLink
-              href={merchUrl}
-              external
-              icon={<ShoppingBag size={22} />}
-              label={t("home.qlMerch")}
-              desc={t("home.qlMerchDesc")}
             />
             <QuickLink
               href="/banda/historia"
