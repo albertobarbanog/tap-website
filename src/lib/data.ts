@@ -181,8 +181,7 @@ export const releases: Release[] = [
   },
   {
     id: "transmute-instrumental",
-    title: "Transmute",
-    edition: "instrumental",
+    title: "Transmute (Instrumental Edition)",
     year: 2019,
     releaseDate: "2019-01-05",
     type: "Álbum",
@@ -241,8 +240,7 @@ export const releases: Release[] = [
   },
   {
     id: "aim-instrumental",
-    title: "AIM",
-    edition: "instrumental",
+    title: "AIM (Instrumental Edition)",
     year: 2021,
     releaseDate: "2021-04-15",
     type: "EP",
@@ -257,6 +255,21 @@ export const releases: Release[] = [
     coverUrl: "https://f4.bcbits.com/img/a1263728418_10.jpg",
     bandcampUrl:
       "https://theantarcticaproject.bandcamp.com/album/aim-instrumental-edition",
+    links: artistLinks,
+  },
+  {
+    id: "columbian-necktie-iktpq-cover",
+    title: "Your Shirt Would Look Better With A Columbian Necktie (IKTPQ Cover)",
+    year: 2026,
+    releaseDate: "2026-10-28",
+    type: "Single",
+    tracklist: [
+      "Your Shirt Would Look Better With A Columbian Necktie (IKTPQ Cover)",
+    ],
+    cover: { seed: 13, label: "COLUMBIAN NECKTIE" },
+    coverUrl: "/images/releases/columbian-necktie-iktpq-cover.jpg",
+    bandcampUrl:
+      "https://theantarcticaproject.bandcamp.com/track/your-shirt-would-look-better-with-a-columbian-necktie-iktpq-cover",
     links: artistLinks,
   },
   {
