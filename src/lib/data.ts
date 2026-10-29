@@ -329,8 +329,7 @@ export const releases: Release[] = [
   },
   {
     id: "ominous-valley-instrumental-single",
-    title: "Ominous Valley",
-    edition: "instrumental",
+    title: "Ominous Valley (Instrumental Edition)",
     year: 2019,
     releaseDate: "2019-06-09",
     type: "Single",
